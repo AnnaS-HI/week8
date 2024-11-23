@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Виарушка - Главная</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Great+Vibes&family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @font-face {
+        font-family: "Intro";
+        src: url("../assets/fonts/Intro.woff2") format("woff2"),
+          url("../assets/fonts/Intro.woff") format("woff");
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container">
+        <div class="header__logo">
+          <span class="header__logo-icon"></span>
+          <a href="index.html" class="logo">Виарушка</a>
+        </div>
+        <div class="header__cart">
+          <button class="button header__cart-button">
+            Корзина
+            <span class="header__cart-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="promo">
+        <div class="promo__container">
+          <div class="promo__info">
+            <h1 class="promo__title">Виртуальная реальность без проводов</h1>
+            <p class="promo__description">
+              Лучшее, что случилось с виртуальным миром в реальности. Новый
+              компактный шлем без проводов и дорогих компьютеров.
+            </p>
+            <button class="button">
+              Купить
+              <span class="promo__button-icon"></span>
+            </button>
+          </div>
+          <div class="promo__image">
+            <img
+              src="./assets/images/picture_hero.svg"
+              alt="Человек с VR-шлемом"
+              class="promo__img"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <ul class="footer__menu">
+          <li class="footer__menu-item">
+            <a href="./features.html" class="footer__menu-link">Возможности</a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="#where-to-buy" class="footer__menu-link">Где купить</a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="#delivery" class="footer__menu-link">Доставка</a>
+          </li>
+          <li class="footer__menu-item">
+            <a href="#help" class="footer__menu-link">Помощь</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

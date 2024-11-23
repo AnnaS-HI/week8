@@ -1,0 +1,270 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+.promo__button,
+.header__cart-button {
+  font-family: "Intro", sans-serif;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+body,
+p,
+li,
+input,
+button {
+  font-family: "Roboto Slab", serif;
+  font-size: 16px;
+}
+
+.header,
+.footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.header__container,
+.footer__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo .logo {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000;
+}
+
+.header__logo-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../assets/images/logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+
+.header__cart-button {
+  background-color: #6200ea;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+/* Иконка корзины */
+.header__cart-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../assets/images/ico_warenkorb.png");
+  background-size: contain;
+  margin-right: 10px;
+}
+
+.main-content {
+  padding: 60px 20px;
+}
+
+.promo__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.promo__title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.promo__description {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.button {
+  background-color: #6200ea;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  font: inherit;
+  border-radius: 8px;
+}
+
+.promo__button:hover {
+  background-color: #5e35b1;
+}
+
+.promo__button-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../assets/images/ico_wallet.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.promo__info {
+  flex: 1;
+  max-width: 33.33%;
+}
+
+.promo__image {
+  flex: 2;
+  max-width: 66.66%;
+}
+
+.promo__img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer__menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.footer__menu-link {
+  text-decoration: none;
+  color: #6200ea;
+}
+
+/* <Features */
+.features {
+  padding: 40px 20px;
+}
+
+.features__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.features__title {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.features__cards {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.features__card {
+  background-color: inherit;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+  text-align: left;
+}
+
+.features__image {
+  height: 200px;
+  margin-bottom: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.features__image--wireless {
+  background-image: url("../assets/images/Illustration_1.png");
+}
+
+.features__image--no-pc {
+  background-image: url("../assets/images/Illustration_2.png");
+}
+
+.features__image--10-hours {
+  background-image: url("../assets/images/Illustration_3.png");
+}
+
+.features__card-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.features__card-description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.features__extra {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.features__extra-item {
+  flex: 1;
+}
+
+.features__extra-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.features__extra-description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.features__news {
+  background-color: #ec615b;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.features__news-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.features__news-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.features__news-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.features__news-button {
+  background-color: #5222d0;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.features__news-input,
+.features__news-button {
+  font-family: "Roboto Slab", serif;
+}
